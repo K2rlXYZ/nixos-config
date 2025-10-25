@@ -1,11 +1,12 @@
-{ ... }:{  
+{...}: {
   imports = [
     ./packages.nix
     ./brave
     ./neovim
-		./tmux
-		./gnome
-		./docker
+    ./tmux
+    ./gnome
+    ./docker
+    ./steam
     #./obs.nix
   ];
 }
